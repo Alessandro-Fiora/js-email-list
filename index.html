@@ -28,13 +28,19 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
   </head>
-  <body>
-    <div class="container">
-      <h1>Email List</h1>
-      <button id="email-print-button" class="btn btn-primary">
-        Stampa 10 email
-      </button>
-      <ul id="email-list"></ul>
+  <body class="text-bg-dark">
+    <div
+      class="container d-flex justify-content-center align-items-center h-100"
+    >
+      <div class="card text-center flex-grow-1">
+        <h1 class="card-header">Email List</h1>
+        <div class="card-body">
+          <button id="email-print-button" class="btn btn-primary mb-3">
+            Print 10 emails
+          </button>
+          <ul id="email-list" class="list-group"></ul>
+        </div>
+      </div>
     </div>
 
     <!-- BOOTSTRAP JS -->
